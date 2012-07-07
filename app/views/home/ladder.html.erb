@@ -1,0 +1,17 @@
+<h1><%= @ladder.name %></h1>
+
+<table>
+  <% @entries.each do |entry| %>
+    <tr>
+      <td>
+        <%= entry.user.first_name %>
+      </td>
+      <td>
+        <%= entry.user.last_name %>
+      </td>
+      <td>
+        <%= entry.elo %>
+      </td>
+    </tr>
+  <% end %>
+</table>
