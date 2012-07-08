@@ -3,5 +3,5 @@ class Admin < ActiveRecord::Base
   belongs_to :ladder
   attr_accessible :user, :ladder
 
-  validates_existence_of :user
+  validates_existence_of :user, :ladder
 end
