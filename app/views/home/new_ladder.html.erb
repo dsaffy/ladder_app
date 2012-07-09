@@ -1,0 +1,9 @@
+<%= form_for :ladder, url: {action: "post_new_ladder" } do |f| %>
+  Ladder name: <%= f.text_field :name %><br />
+  <%= f.submit %>
+<% end %>
+<% if @errors %>
+  <% @errors.each do |m| %>
+    <p><%= m %></p>
+  <% end %>
+<% end %>
