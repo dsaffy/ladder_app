@@ -1,0 +1,19 @@
+.page {
+	-moz-background-size: cover; background-size: cover;
+}
+
+.home {
+	background: #000 url(../img/myimg/art4.jpeg) center center fixed no-repeat; 
+}
+
+.gridtable {
+	background: #000 url(../img/myimg/art4.jpeg) center center fixed no-repeat; 
+}
+
+.about {
+	background: #000 url(../img/myimg/art3.jpeg) center center fixed no-repeat; 
+}
+
+.dashboard {
+	background: #000 url(../img/myimg/art4.jpeg) center center fixed no-repeat; 
+}
